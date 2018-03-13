@@ -21,6 +21,7 @@
 # what it can :
          1.ProxySpider能够爬取各大代理网站ip，并且对每个ip进行分类验证：
          ①验证有效性.②验证是否为https.③测试代理ip延迟.验证结束后将ip存入数据库。
+         
          2.ProxySpider的proxy.py是一个附加功能，它是一个本地代理，
          能够从数据库中随机选取一个ip转发https/http报文。也就是能够实现每次使用不同ip访问同一个网站。
          
